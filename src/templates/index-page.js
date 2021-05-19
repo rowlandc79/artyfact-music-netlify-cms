@@ -40,8 +40,8 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+              'rgb(0 68 200) 0.5rem 0px 0px, rgb(0 68 200) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(0 68 200)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -53,8 +53,8 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+              'rgb(0 68 200) 0.5rem 0px 0px, rgb(0 68 200) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(0 68 200)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -86,14 +86,13 @@ export const IndexPageTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div>
-                <Features gridItems={intro.blurbs} />
                 <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
+                  <div className="column is-12">
+                    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" 
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1017490069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                    <div class="sc-embed"><a href="https://soundcloud.com/artyfact-music" title="artyfact" target="_blank">artyfact</a> · <a href="https://soundcloud.com/artyfact-music/souffle" title="Souffle" target="_blank">Souffle</a></div>
                   </div>
-                </div>
+                </div>   
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
